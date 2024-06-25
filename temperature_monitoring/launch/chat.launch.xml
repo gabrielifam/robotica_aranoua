@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="temperature_monitoring" exec= "temperature_publisher" name= "temperature_publisher" output= "screen"/>
+    <node pkg="temperature_monitoring" exec= "temperature_analyzer" name= "temperature_analyzer" output= "screen"/>
+</launch>
